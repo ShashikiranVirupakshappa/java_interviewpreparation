@@ -1,0 +1,422 @@
+{
+	"LoanSource": "string",
+	"BranchReceived": 0,
+	"BranchHeld": 0,
+	"ExternalReferenceID": "string",
+	"SubProgramId": "string",
+	"UserID": "string",
+	"AppNumber": "string",
+	"LoanCategory": "string",
+	"LoanType": "string",
+	"LoanReason": "string",
+	"LoanAmount": 0.1,
+	"RepaymentPeriod": "string",
+	"VehicleMaxAmount": 0.1,
+	"JointInd": "string",
+	"IsAutoRefiCashout": true,
+	"IsPurchaseDealership": true,
+	"IsPurchasePrivateParty": true,
+	"IsTradeInOrSellingVehicle": true,
+	"TradeInOrSellingFinancedAmt": 0.1,
+	"TradeInOrSellingFinancedMonthlyPymt": 0.1,
+	"PurchaseDetails": {
+		"Dealer": {
+			"AmtToDealer": 0.1,
+			"Name": "string",
+			"Address": {
+				"Type": "string",
+				"ResidenceStatus": "string",
+				"MonthsAtAddress": 0,
+				"AddressLine1": "string",
+				"AddressLine2": "string",
+				"City": "string",
+				"State": "string",
+				"Country": "string",
+				"Zipcode": "string",
+				"Urbanization": "string"
+			},
+			"IsDealerNotFound": true,
+			"IsTrustedDealer": true
+		},
+		"PrivateParty": {
+			"AmtToSeller": 0.1,
+			"Name": "string",
+			"Address": {
+				"Type": "string",
+				"ResidenceStatus": "string",
+				"MonthsAtAddress": 0,
+				"AddressLine1": "string",
+				"AddressLine2": "string",
+				"City": "string",
+				"State": "string",
+				"Country": "string",
+				"Zipcode": "string",
+				"Urbanization": "string"
+			},
+			"IsSellerVehicleCurrentlyFinanced": true,
+			"LenderName": "string",
+			"PayoffAmt": 0.1,
+			"PayoffDate": "2014-12-31"
+		},
+		"Refi": {
+			"LenderName": "string"
+		},
+		"TitleOwner1": "string",
+		"TitleOwner2": "string",
+		"TitleState": "string"
+	},
+	"Campaign": {
+		"CampaignType": "string",
+		"CampaignCode": "string",
+		"CampaignLoanAmount": 0.1,
+		"CampaignOfferCode": "string"
+	},
+	"Collateral": {
+		"VIN": "string",
+		"LicensePlateNum": "string",
+		"VehicleState": "string",
+		"VehicleMake": "string",
+		"VehicleModel": "string",
+		"VehicleBody": "string",
+		"VehicleYear": 0,
+		"VehicleMileage": 0,
+		"VehicleMaxAmount": 0.1,
+		"VehicleEngine": "string",
+		"VehicleIsSalavge": true,
+		"VehicleLastReadMileage": 0,
+		"VehicleMileageReadingDate": "2014-12-31",
+		"VehicleEstimatedMileage": 0,
+		"VehicleDeclaredMileage": 0,
+		"VehicleYearNADA": "string",
+		"VehicleMakeNADA": "string",
+		"VehicleModelNADA": "string",
+		"VehicleBodyNADA": "string",
+		"Ucgvehicleid": "string",
+		"VehicleFuelType": "string",
+		"VehicleTrim": "string",
+		"VehicleTrim2": "string",
+		"VehicleBaseMSRP": 0,
+		"VehicleAdjustedCleanTrade": 0,
+		"VehicleAdjustedAverageTrade": 0,
+		"VehicleAdjustedRoughTrade": 0,
+		"VehicleAdjustedCleanRetail": 0,
+		"CarFaxReport": "string",
+		"NADAReport": "string",
+		"IsVINDecoded": "string",
+		"IsVehicleValuePresent": "string",
+		"IsVehicleValueOverride": "string"
+	},
+	"Applicants": [
+		{
+			"FirstName": "string",
+			"MI": "string",
+			"LastName": "string",
+			"DOB": "2014-12-31",
+			"Email": "string",
+			"SSN": "string",
+			"IsITIN": true,
+			"Type": "string",
+			"MemberDetail": {
+				"MemberNumber": "string",
+				"BorrowerNumber": "string",
+				"MemberSince": "2014-12-31",
+				"Token": "string",
+				"CIF": "string",
+				"Type": "string",
+				"IsPastMember": true
+			},
+			"Address": [
+				{
+					"Type": "string",
+					"ResidenceStatus": "string",
+					"MonthsAtAddress": 0,
+					"AddressLine1": "string",
+					"AddressLine2": "string",
+					"City": "string",
+					"State": "string",
+					"Country": "string",
+					"Zipcode": "string",
+					"Urbanization": "string"
+				}
+			],
+			"Phones": [
+				{
+					"PhoneNumber": "string",
+					"PhoneType": "string",
+					"PhoneStatusType": "string"
+				}
+			],
+			"AnnualIncome": 0.1,
+			"MonthlyRent": 0.1,
+			"ResidenceInfo": {
+				"ResidenceType": "string",
+				"MonthsAtAddress": 0,
+				"MonthlyMortgage": 0.1
+			},
+			"Employment": {
+				"EmploymentStatus": 0,
+				"IsPenfedEmployee": true,
+				"Occupation": "string",
+				"BusinessName": "string",
+				"UnEmploymentPeriod": 0,
+				"RetirementPeriod": 0,
+				"Phone": {
+					"PhoneNumber": "string",
+					"PhoneType": "string",
+					"PhoneStatusType": "string"
+				},
+				"EmployerAddress": {
+					"Type": "string",
+					"ResidenceStatus": "string",
+					"MonthsAtAddress": 0,
+					"AddressLine1": "string",
+					"AddressLine2": "string",
+					"City": "string",
+					"State": "string",
+					"Country": "string",
+					"Zipcode": "string",
+					"Urbanization": "string"
+				},
+				"EmployedMonths": 0,
+				"GraduationYear": 0,
+				"StudentAssociation": "string"
+			},
+			"MilitaryStatus": {
+				"BranchOfService": "string",
+				"CurrentMilitaryStatus": "string",
+				"GrankCode": "string",
+				"CurrentRank": "string"
+			},
+			"Disclosures": {
+				"CommunicationConsent": true,
+				"DocumentsEDelivery": true,
+				"TaxStatementEDelivery": true,
+				"TermsConditionsAgmt": true,
+				"CreditReportAuthorization": true,
+				"PolicyAgreement": true,
+				"CoApplicantPresent": true,
+				"RecurringPaymentAgreement": true,
+				"PatriotAct": true
+			},
+			"ThirdPartyPayloads": [
+				{
+					"Name": "string",
+					"format": "string",
+					"Request": "string",
+					"Response": "string"
+				}
+			],
+			"Stipulations": [
+				{
+					"Code": "string",
+					"Name": "string",
+					"Type": "string",
+					"Status": "string",
+					"Category": "string",
+					"CCSCaseID": "string",
+					"CCSCaseStatus": "string",
+					"CCSTaskId": "string",
+					"CCSTaskStatus": "string",
+					"CCSTaskCreatedOn": "2014-12-31T23:59:59.938Z",
+					"CCSIframeURL": "string",
+					"CCSNoteUploadURL": "string",
+					"LastUpdateUserName": "string",
+					"LastUpdateDateTime": "2014-12-31T23:59:59.938Z"
+				}
+			],
+			"CreditDetails": {
+				"CreditReportDate": "2014-12-31",
+				"CreditBureauType": "string",
+				"CreditScore": 1234567891234567
+			},
+			"CrosscoreFraudnet": {
+				"HDIMPayload": "string",
+				"IPAddress": "string",
+				"JSC": "string"
+			},
+			"CrossCoreKBAAnswers": {
+				"SessionId": "string",
+				"Timeout": true,
+				"QuestionAnswerId": [
+					{
+						"QuestionOrderId": 0,
+						"QuestionChoiceId": 0
+					}
+				]
+			},
+			"LoanDetails": [
+				{
+					"LoanId": 0,
+					"LoanOpenDate": "string",
+					"Lender": "string",
+					"LoanAmount": 0.1,
+					"LoanRate": 0.1,
+					"LoanTerm": "string",
+					"MonthlyPayment": 0.1,
+					"ManualLoanEntry": "string",
+					"IsSelected": true,
+					"LenderNameEdit": true,
+					"CBRLender": "string",
+					"LenderPayOffAmt": 0.1,
+					"CashToBorrowerAmt": 0.1,
+					"OriginalLenderPayOffAmt": 0.1,
+					"OriginalMonthlyPayment": 0.1
+				}
+			],
+			"MilitaryLendingAct": {
+				"MLAIndicator": "string",
+				"MLADateTime": "string",
+				"MLAUserId": "string",
+				"MLASource": "string",
+				"MLACertificateNumber": "string"
+			},
+			"LoanOfficer": {
+				"PrimaryUser": "string",
+				"SecondaryUser": "string"
+			},
+			"LPCertification": {
+				"CertificateNumber": "string",
+				"CertificationDate": "2014-12-31T23:59:59.938Z"
+			},
+			"MAPR": 0.1,
+			"PhoneOwnership": {
+				"ConsentId": "string",
+				"ConsentTimeStamp": "2014-12-31T23:59:59.938Z"
+			},
+			"IdentityVerification": {
+				"TransactionId": "string",
+				"OverallStatus": "string",
+				"ReasonMessage": "string",
+				"LivenessStatus": "string",
+				"MatchStatus": "string",
+				"DocumentAuthenticationStatus": "string",
+				"DocumentFirstName": "string",
+				"DocumentLastName": "string",
+				"BiographicMatchingStatus": "string",
+				"GivenNameMatch": "string",
+				"LastNameMatch": "string",
+				"AddressMatch": "string",
+				"BirthDateMatch": "string",
+				"ExpirationDate": "2014-12-31",
+				"IssueDate": "2014-12-31"
+			},
+			"TransferInternationally": "string",
+			"InternationalFundTransfer": {
+				"PrimaryCountry": "string",
+				"SecondaryCountry": "string"
+			},
+			"AccountNumber": "string"
+		}
+	],
+	"SelectedOfferCode": "string",
+	"Funding": {
+		"DisbursalType": "string",
+		"AccountNumber": "string",
+		"Product": "string",
+		"Amount": 0.1,
+		"ItemizationIndicator": true,
+		"ACH": {
+			"FRBNumber": "string",
+			"Account": "string",
+			"Product": "string",
+			"Amount": 0.1
+		}
+	},
+	"PaymentCalculation": {
+		"LoanNumber": "string",
+		"LoanAmount": 0.1,
+		"RePayPeriod": "string",
+		"InterestRate": 0.1,
+		"EffectiveDate": "2014-12-31",
+		"FirstPayDueDate": "2014-12-31",
+		"Maturitydate": "2014-12-31",
+		"PaymentAmount": 0.1,
+		"FinalPayAmount": 0.1,
+		"TotalPayAmount": 0.1,
+		"TotalFinanceCharge": 0.1
+	},
+	"Repayment": {
+		"BillingType": "string",
+		"ProductType": "string",
+		"AccountNbr": "string",
+		"ACH": {
+			"FRBNumber": "string",
+			"Account": "string",
+			"Product": "string",
+			"Amount": 0.1
+		}
+	},
+	"TransferInternationally": "string",
+	"InternationalFundTransfer": {
+		"PrimaryCountry": "string",
+		"SecondaryCountry": "string"
+	},
+	"DebtProtection": {
+		"Type": "string",
+		"Rate": 0.1,
+		"Premium": 0.1,
+		"UserId": "string"
+	},
+	"Booking": {
+		"IsBooked": true
+	},
+	"LoanDetails": {
+		"LoanId": 0,
+		"LoanOpenDate": "string",
+		"Lender": "string",
+		"LoanAmount": 0.1,
+		"LoanRate": 0.1,
+		"LoanTerm": "string",
+		"MonthlyPayment": 0.1,
+		"ManualLoanEntry": "string",
+		"IsSelected": true,
+		"LenderNameEdit": true,
+		"CBRLender": "string",
+		"LenderPayOffAmt": 0.1,
+		"CashToBorrowerAmt": 0.1,
+		"OriginalLenderPayOffAmt": 0.1,
+		"OriginalMonthlyPayment": 0.1
+	},
+	"LPCertificationReq": {
+		"allStipsAgreed": true,
+		"contractDate": "string",
+		"dealerReserve": 0.1,
+		"finalRate": 0.1,
+		"fundedDate": "string",
+		"institutionNameToCertify": "string",
+		"primaryAccountNumber": "string",
+		"userEmail": "string"
+	},
+	"LenderPayOffAmt": 0.1,
+	"CashToBorrowerAmt": 0.1,
+	"IsCounterOfferAccepted": true,
+	"IsTrueCar": true,
+	"AccountNumber": "string",
+	"IsPreapprovalDraftAccepted": "string",
+	"AncillaryProducts": {
+		"Offers": [
+			{
+				"Id": 1234567891234567,
+				"Product": "string",
+				"IsEligible": true,
+				"Status": "string",
+				"IsMAPREligible": true,
+				"Cost": 0.1,
+				"Provider": "string",
+				"ProviderId": "string",
+				"SelectedPlan": "string",
+				"PlanEligibility": [
+					{
+						"Plan": "string",
+						"Eligible": true,
+						"Reasons": "string"
+					}
+				]
+			}
+		]
+	},
+	"CheckDelivery": {
+		"DeliveryMethod": "string",
+		"Cost": 0.1
+	}
+}
